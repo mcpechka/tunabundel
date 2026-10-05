@@ -148,9 +148,7 @@
 \setlength{\wlskip}{1em}
 
 % strip unit command
-\makeatletter
 \newcommand*{\stripunit}[1]{\strip@pt#1}
-\makeatother
 
 % forloop code from [2006/09/18 v3.0 For Loops for LaTeX]
 \newcommand{\forloop}[5][1]%
@@ -184,7 +182,6 @@
 }
 
 % by martin scharrer @ http://tex.stackexchange.com/questions/11707/how-to-force-output-to-a-left-or-right-page
-\makeatletter
 \newcommand*{\cleartoleftpage}{%
   \clearpage
     \if@twoside
@@ -196,7 +193,6 @@
     \fi
   \fi
 }
-\makeatother
 
 % chord command
 \DeclareDocumentCommand\chord{s m}{%
@@ -269,7 +265,7 @@
     % Subtract the width of the N+1 vertical rules. 
     \setlength{\measurewidth}{% 
         \dimexpr 
-            (\linewidth-(#2+1)\arrayrulewidth)/#2 
+            (\linewidth-\numexpr#2+1\relax\arrayrulewidth)/#2 
         \relax 
     }% 
     
@@ -315,7 +311,7 @@
     \noindent 
     \hspace{\vnoffset}\textbf{#1}\\ 
     \noindent 
-    \begin{tabular}{@{}|*{#2}{p{\measurewidth}@{}|}@{}}% 
+    \begin{tabular}{@{}|*{#2}{@{}p{\measurewidth}@{}|}@{}}% 
 } 
 {% 
     \end{tabular}% 
@@ -345,13 +341,10 @@
 }
 
 % Dashfill command, dotfill atlerd
-\makeatletter
 \newcommand \dashfill {\leavevmode \cleaders \hb@xt@ .33em{\hss -\hss }\hfill \kern \z@}
-\makeatother
 
 % lijn bij header
 \renewcommand{\headrulewidth}{1.8pt}
-\makeatletter
 \renewcommand{\headrule}{
     \setlength\@tempdima{0pt}
     \addtolength{\@tempdima}{\headwidth}
@@ -359,11 +352,9 @@
     \textcolor{black}{\hrule\@height\headrulewidth\@width\@tempdima}
     \textcolor{beca}{\hrule\@height\headrulewidth\@width\@tempdima}
 }
-\makeatother
 
 % lijn bij footer
 \renewcommand{\footrulewidth}{0.9pt}
-\makeatletter
 \renewcommand{\footrule}{
     \setlength\@tempdima{0pt}
     \addtolength{\@tempdima}{\headwidth}
@@ -371,7 +362,6 @@
     \textcolor{black}{\hrule\@height\footrulewidth\@width\@tempdima}
     \textcolor{beca}{\hrule\@height\footrulewidth\@width\@tempdima}
 }
-\makeatother
 
 %header and foot text / create page style fancyplain
 \fancypagestyle{fancyplain}{
@@ -407,9 +397,7 @@
     \setlength{\columnsep}{18pt}% 
     \setlength{\columnseprule}{0pt}%
     \begin{multicols}{2} 
-    \makeatletter 
     \@starttoc{toc}%
-    \makeatother 
     \end{multicols} 
     \endgroup 
 }
