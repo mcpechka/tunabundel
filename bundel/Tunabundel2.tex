@@ -27,8 +27,8 @@
 Bundel is samengesteld door Michael en Youri. Gecorrigeerd door Reinier en Stijn
 \clearpage
 \renewcommand\contentsname{Lijst met liedjes.}
-\tableofcontents
-%\addtocontents{toc}{~\hfill\textbf{Page}\par}
+\section*{\contentsname}
+\twocolumntoc
 \vfill
 \clearpage
 
@@ -102,24 +102,24 @@ Bundel is samengesteld door Michael en Youri. Gecorrigeerd door Reinier en Stijn
 \input{songs/venezuela}\notition{8}
 \input{songs/y_viva_espana}\notition{8}
 
-\appendix
-\cleardoublepage
-\begin{center}
-\vspace*{\fill}
-\textbf{\Huge Muziektheorie}
-\vspace{50pt}
-\vspace*{\fill}
-\end{center}
-\clearpage
-\input{theory/theorie}\clearpage
-\input{/theory/zangworkshop}\clearpage
-\stepcounter{section}\phantomsection\addcontentsline{toc}{section}{\Alph{section}\hspace{1em}Akkoorden}
-\lilypondfile[noindent]{/theory/chords.ly}
-\input{/theory/akkoorden}
-\clearpage
-\input{theory/ritmes}\clearpage
-\input{theory/spaanse_uitspraak}\clearpage
-\input{theory/portugese_uitspraak}\clearpage
-\input{theory/motivation}
+% \appendix
+% \cleardoublepage
+% \begin{center}
+% \vspace*{\fill}
+% \textbf{\Huge Muziektheorie}
+% \vspace{50pt}
+% \vspace*{\fill}
+% \end{center}
+% \clearpage
+% \input{theory/theorie}\clearpage
+% \input{/theory/zangworkshop}\clearpage
+% \stepcounter{section}\phantomsection\addcontentsline{toc}{section}{\Alph{section}\hspace{1em}Akkoorden}
+% \lilypondfile[noindent]{/theory/chords.ly}
+% \input{/theory/akkoorden}
+% \clearpage
+% \input{theory/ritmes}\clearpage
+% \input{theory/spaanse_uitspraak}\clearpage
+% \input{theory/portugese_uitspraak}\clearpage
+% \input{theory/motivation}
 
 \end{document}
