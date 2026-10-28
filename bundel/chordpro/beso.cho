@@ -1,0 +1,41 @@
+{title: El Beso}
+{key: G/Em}
+{meta: rhythm Paso doble}
+{meta: source Tunabundel – Tuna Ciudad de Luz}
+{define: Cdim base-fret 1 frets x 3 4 5 4 x}
+
+{comment: Intro}
+| [*G(6-5)] | . | . | [B7] | . | . | . | . |
+| [Em] | . | . | . | . | [*Am(5-6)] | . | [Em] | . | [F#m] | [B7] | [E] | . |
+
+{start_of_verse: Couplet 1}
+En Es[B7]paña bendita [E]tierra
+donde [B7]puso su trono el a[*60 64 50 51 52]mor
+En Es[B7]paña el beso en[E]cierra
+[Em]ale-[Am]gria en [B7]el cora[Em]zón.[Em]
+{end_of_verse}
+
+{start_of_chorus: Refrein}
+La españ[Am]ola cuando besa [*60 / 50]
+es que [Dm]besa [Cdim]de ver[E]dad[E]
+y a nin[Am]guna le interesa[*60 / 50]
+be[Am]sar por [Edim]frivoli[B7]dad.
+El beso,[*52 50 63 62] [Em]el beso, el beso en Es[B7]paña
+lo lleva [*52 50 63 62] la [Em]hembra muy [D]dentro en el [G]alma
+Te [C]puedo dar un [D]beso de her[G]mano [Em]
+te [Am]puede dar un [B7]beso en la [Em]mano, [*63 60 62 63]
+y as[*(Am↓)x x]í la besará cuando [Em]quiera
+pero un beso de a[Am]mor,[Em]
+no se lo dan a cual[B7]quiera[Em] [D]
+{end_of_chorus}
+
+{comment: Intro (repetir)}
+
+{start_of_verse: Couplet 2}
+Es más [B7]noble yo le ase[E]guro
+y pro[B7]duce mayor emo[*60 64 50 51 52]cion
+Es el [B7]beso sinceroy [E]puro
+[Em]que va un[Am]ido con [B7]una can[Em]cion[Em]
+{end_of_verse}
+
+{chorus: Refrein}

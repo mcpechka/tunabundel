@@ -1,0 +1,66 @@
+{title: Párate}
+{key: D}
+{meta: rhythm Paso doble}
+{meta: source Tunabundel – Tuna Ciudad de Luz}
+{define: Edim base-fret 1 frets x 1 2 0 2 0}
+
+{comment: Intro}
+| [Gm] | . | [D] | [F] |
+| [Em] | [A7] | [*40;44;32;44] |
+
+{start_of_verse: Couplet 1}
+[*40] [*50]Tú [*52]sa[*54]bes [D]bien que me enamoro de tu boca
+[*40] [*50]Cuan[*52]do [*54]me [D]miras en silencio entre la gente
+[*40] [*40]tú [*42]sa[*44]bes [G]bien que alguna pieza se disloca
+[*63] [*62]den[*63]tro [*64]de [A7]mí cuando me miras fijamente
+{end_of_verse}
+
+{start_of_verse: Couplet 2}
+[*40] [*50]Pe[*52]ro [*54]tú [D]sabes bien que cuando yo te cante
+[*40] [*40]ba[*42]jo [*43]la [F]luna de Valencia en tu bal[Bm]cón
+[*52] [*52]co[*54]mo [*40]nin[E]gún desconocido habrá delante
+[*60] [*60]en[*62]ton[*64]ces [A7]tú me entregarás tu corazón.
+{end_of_verse}
+
+{start_of_chorus: Refrein}
+[*50] [*50]Y [*52]dir[*54]as [D]párate, párate, párate
+[*40] [*50]Y [*40]dir[*42]as [Bb7]cántame, cán[A7]tame, cánta[D]me
+[*40] [*40]Y [*42]dir[*44]as [G]mírame, mirame, miramé
+[*63] [*62]Y [*63]dir[*64]as [A7]bésame, besame, besamé 2x
+[Gm]Cuando pase con mi [D]Tuna
+cantan[F]do bajo [*(*)] la lu[Em]na
+de mi [A7]Valencia mu[*40 44 32 44]jer.
+{end_of_chorus}
+
+{comment: Intermezzo}
+| [*40;50;52;54] | [D] | . | . |
+| [*40;50;40;42] | [Bb7] | [A7] | [D] |
+
+{comment: Couplet 1 en 2 (repetir)}
+
+{chorus: Refrein 2x, 1e keer a capella, 2e keer tot (*)}
+
+{start_of_verse: Einde}
+[*(*)]..la lu[Em]na[A7] de mi Valencia mu[D]jer. [D] [A7] [D]
+{end_of_verse}
+
+{start_of_verse: Vertaling (NL)}
+Gij weet, dat ik val uit je mond
+Als je kijkt naar me in stilte onder de mensen
+Gij weet dat een stukje ontwricht
+in mij als je staren
+
+Maar je weet heel goed dat als ik zing
+onder de maan van Valencia op uw balkon
+aangezien er geen onbekende voor zal zijn
+dan zult u mij uw hart geven.
+
+En je zegt staan, staan, staan
+En je zegt zingen voor mij, zingen voor mij, zingen voor me
+En je zegt kijk naar mij, kijk naar mij, kijk naar mij
+En je zegt kus me, kus me, kus me
+
+Toen mijn Tuna passerde
+zingend onder de maan
+Valencia mijn vrouw.
+{end_of_verse}

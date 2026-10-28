@@ -1,0 +1,74 @@
+{title: Cielito Lindo}
+{key: A}
+{time: 3/4}
+{meta: rhythm Copla}
+{meta: source Tunabundel – Tuna Ciudad de Luz}
+{define: Edim base-fret 1 frets x 1 2 0 2 0}
+
+{comment: Intro}
+| . | [A] | . | . | . | [E7] | . | . |
+| . | . | . | . | . | . | [A] | . |
+
+{start_of_verse: Couplet 1}
+[A]Y ese lunar que tienes, cielito lindo,
+[Edim]junto a la [E7]boca,
+no se lo des a nadie, cielito lindo,
+que mi me [*50 54 42 50]toca.
+{end_of_verse}
+
+{start_of_verse: Couplet 2}
+[A]De tu puerta a la mia, cielito lindo,
+[Edim]no hay más que un [E7]paso.
+Ahora que estamos solos, cielito lindo,
+dame un [*50 54 42 44 42 54]abrazo.
+{end_of_verse}
+
+{start_of_chorus: Refrein (2x)}
+[A]Ay, [A7]ay, ay, [D]ay, [F#] [Bm]can n[E7]ta, no [*50 54 42 44 42 54]llores,
+por[A]que can[Edim]tando se a[E7]legran,
+cielito lindo, los cora[*50 54 42 44 42 54 1e keer, 50 54 42 50 2e keer]zones.
+{end_of_chorus}
+
+{start_of_verse: Couplet 3}
+[A]Una flecha en el aire, cielito lindo, [Edim]tiró Cu[E7]pido.
+El a tiró jugando, cielito lindo,
+y a mí me he[*50 54 42 50]ri o.
+{end_of_verse}
+
+{start_of_verse: Couplet 4}
+[A]De la Sierra Morena, cielito lindo,
+[Edim]vienen ba[E7]jando.
+un par ojitos negros, ,cielito lindo,
+de contra[*50 54 42 44 42 54]bando.
+{end_of_verse}
+
+{chorus: Refrein}
+
+{chorus: Refrein(a capella)}
+
+{chorus: Refrein}
+
+{start_of_verse: Vertaling (NL)}
+Die moedervlek, heerlijk hemeltje,
+die je daar naast je mond hebt,
+geef die aan niemand weg, heerlijk hemeltje,
+want hij is voor mij.
+
+Van jouw deur tot de mijne, heerlijk hemeltje,
+is slechts een pas.
+Nu we alleen zijn, heerlijk hemeltje,
+geef me een kus.
+
+Ay, ay, ay, ay, zing en huil niet,
+want door te zingen, heerlijk hemeltje,
+worden de harten verblijd.
+
+Cupido heeft een pijl in de lucht geschoten, heerlijk hemeltje.
+Hij schoot hem spelenderwijs, heerlijk hemeltje,
+maar hij heeft mij gewond.
+
+Uit de Sierra Morena, heerlijk hemeltje,
+komt aanzetten,
+een paar zwarte ogen, heerlijk hemeltje,
+als smokkelwaar.
+{end_of_verse}

@@ -1,0 +1,72 @@
+{title: El Torero}
+{key: Am/A}
+{meta: rhythm Paso doble}
+{meta: source Tunabundel – Tuna Ciudad de Luz}
+
+{comment: Intro}
+| [*; ;52;53] | [*40; ;53;52] | [*53; ;52;50] | [*63;61] |
+| [*60; ;52;53] | [*40; ;53;52] | [*53; ;52;50] | [*63;61] |
+
+{comment: Instrumental}
+| [E] | . | . | . |
+| [E] | . | [F] | . |
+| [E] | . | . | . |
+| [E] | . | . | . |
+| . | . | [F] | . |
+| [E] | . | . |
+
+{comment: Instrumental}
+| [*60; ;52;53] | [*40; ;53;52] | [*53; ;52;50] | [*63;61] |
+| [*60; ;52;53] | [*40; ;53;52] | [*53; ;52;50] | [*63;61] |
+
+{start_of_verse: Couplet 1 (Solo)}
+[E] Un domingo en la tarde [F] se tiró al [E] ruedo,
+para calmar sus ansias [F] de novi[E]llero.
+{end_of_verse}
+
+{comment: Vervolg Intro}
+| [*60; ;52;53] | [*40; ;53;52] | [*53; ;52;50] | [*63;61] |
+| [*60; ;52;53] | [*40; ;53;52] | [*53; ;52;50] | [*63;61] |
+
+{comment: Instrumental}
+| [E] | . | . | [*E*] | [E] |
+
+{start_of_verse: Couplet 2}
+To[A]rero, valiente,
+despliega el capote con arte sin miedo a la [E]muerte. [E]
+La [Bm]Virgen, te cuida,
+y cubre tu manto que es [E7]santo mantón de Ma[A]nila. [*60 62 63 64 E*]
+{end_of_verse}
+
+{start_of_chorus: Refrein}
+Mu[A]chacho, te arrimas
+lo mismo en el quite ga[A7]llardo que en las bande[D]rillas.[D]
+To[D]rero, [Dm] quien [A]sabe [*60 61 F#]
+si el [Bm]precio del triunfo lo [E7]paguen tu vida y tu [A]sangre.
+{end_of_chorus}
+
+{comment: Intermezzo}
+| [*F*] | [*G*;F↓] | [*E*] : |
+| [*60;62] | . |
+
+{comment: Couplet 2 (instrumentaal) (repetir)}
+
+{chorus: Refrein}
+
+{comment: Einde}
+| [*F*] | [E] |
+
+{start_of_verse: Vertaling (NL)}
+Een zondagavond gooide hij zich in de arena,
+om zijn angsten te overwinnen van een beginnend stierenvechter.
+
+Torero, moedige vent,
+ontplooi de cappa met kunst zonder vrees voor de dood.
+De Maagd verzorgt je
+en bedekt je met de mantel, welke je heilige omslagdoek is.
+
+Zelfs Muchacho werpt
+bij het moedige ontwijken van de stier een spies.
+Torero, wie weet
+of de prijs van de triomf van hen, die betalen met hun leven en hun bloed.
+{end_of_verse}
