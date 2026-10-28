@@ -5,8 +5,8 @@
 {define: Edim base-fret 1 frets x 1 2 0 2 0}
 
 {comment: Intro}
-| [Gm] | . | [D] | [F] |
-| [Em] | [A7] | [*40;44;32;44] |
+| [Gm] | . | [D] | [Fdim] |
+| [Em] | [A7] | [*40] [*44] [*32] [*44] |
 
 {start_of_verse: Couplet 1}
 [*40] [*50]Tú [*52]sa[*54]bes [D]bien que me enamoro de tu boca
@@ -33,8 +33,8 @@ de mi [A7]Valencia mu[*40 44 32 44]jer.
 {end_of_chorus}
 
 {comment: Intermezzo}
-| [*40;50;52;54] | [D] | . | . |
-| [*40;50;40;42] | [Bb7] | [A7] | [D] |
+| [*40] [*50] [*52] [*54] | [D] | . | . |
+| [*40] [*50] [*40] [*42] | [Bb7] | [A7] | [D] |
 
 {comment: Couplet 1 en 2 (repetir)}
 

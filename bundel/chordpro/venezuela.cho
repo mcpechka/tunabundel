@@ -5,8 +5,9 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Pre-intro (Cuatro -> Guitarron -> rest)}
-| [Gm] | [A7] : |
-| [Dm] | . | [Gm] | . | [A] | [Dm] | [Gm] | [A] : |
+| [Dm] | [Gm] | [A7] : | [*50] [*52] [*54] | [Dm] |
+| . | [Gm] | . | [A] | [Dm] |
+| [Gm] | [A] : |
 
 {start_of_verse: Intro}
 |: [*50 52 54] [Dm]Ah | [Gm]ah | [A]ah :| (3x) [*50 52 54 40] (rust)
@@ -35,14 +36,15 @@ de acer[Gm]carme un poco a [A]ti. [*50 52 54 2e keer)]
 {end_of_verse}
 
 {start_of_verse: Brug (2e keer de akkoorden tussen haakjes spelen)}
-Ma[*D(F)]ñana cuando par[*G(Bb)]tamos
-un re[*A(C)]cuerdo te deja[D]ré, [G] [A]
-mis [*D(F)]la grimas en tus me[*G(Bb)]jillas
-y el de[*A(C)]cir qué me llevaré.
+Ma[D][*F]ñana cuando par[G][*Bb]tamos
+un re[A][*C]cuerdo te deja[D]ré, [G] [A]
+mis [D][*F]la grimas en tus me[G][*Bb]jillas
+y el de[A][*C]cir qué me llevaré.
 {end_of_verse}
 
 {comment: Intermezzo (2e keer de akkoorden tussen haakjes spelen)}
-| . | [Gm] | . | [Dm] | [A] | [Dm] | [Gm] | [A] : | [*53;40;42] |
+| [*50] [*52] [*54] | . | [Gm] | . | [Dm] |
+| [A] | [Dm] | [Gm] | [A] : | [*53] [*40] [*42] |
 
 {comment: Brug in F (repetir)}
 

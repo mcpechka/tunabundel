@@ -5,8 +5,8 @@
 {define: Cdim base-fret 1 frets x 3 4 5 4 x}
 
 {comment: Intro}
-| [*G(6-5)] | . | . | [B7] | . | . | . | . |
-| [Em] | . | . | . | . | [*Am(5-6)] | . | [Em] | . | [F#m] | [B7] | [E] | . |
+| [G] [*6-5] | . | . | [B7] | . | . | . | . |
+| [Em] | . | . | . | . | [Am] [*5-6] | . | [Em] | . | [F#m] | [B7] | [E] | [*60] |
 
 {start_of_verse: Couplet 1}
 En Es[B7]paña bendita [E]tierra

@@ -6,10 +6,10 @@
 {define: Edim base-fret 1 frets x 1 2 0 2 0}
 
 {comment: Intro}
-| [E] | [D] | [A] | . |
-| [E] | [D] | [A] | . |
+| [E] | [D] | [A] | [*50 64 62] |
+| [E] | [D] | [A] | [*50 52 53] |
 | [C#7] | . | [F#m] | [A] |
-| [A] | [E7] | . | . |
+| [A] | [E7] | [*50 54 52] | [*50] |
 
 {start_of_verse}
 Couplet 1

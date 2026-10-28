@@ -4,10 +4,10 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Intro}
-| [A] | [*;;64;62] | [E] | . |
-| [E] | [*;;62;64] | [A] | [*;;(64;63)] |
+| [A] | . . [*64] [*62] | [E] | . |
+| [E] | . . [*62] [*64] | [A] | . . [*(64] [*63)] |
 | [F#] | . | [Bm] | . |
-| [A] | [E] | [A] | [A] |
+| [A] | [E] | [A] [E] | [A] |
 
 {start_of_verse: Couplet 1 (2x)}
 [A]Tanto me gusta el vino y toda la parranda.

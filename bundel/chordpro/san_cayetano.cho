@@ -4,10 +4,10 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Intro}
-| [A] | [*;64 62] | [E] | . |
-| [E] | [*;62 64] | [A] | . |
-| [A] | [*;64 62] | [E] | . |
-| [E] | [*;62 64] | [A] | [A] |
+| [A] | . [*64 62] | [E] | . |
+| [E] | . [*62 64] | [A] | . |
+| [A] | . [*64 62] | [E] | . |
+| [E] | . [*62 64] | [A] [E] | [A] |
 
 {start_of_verse: Couplet 1}
 [A]Hay un lugar en el mundo

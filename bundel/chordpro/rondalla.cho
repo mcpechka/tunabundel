@@ -6,7 +6,7 @@
 {define: A/F# base-fret 1 frets 2 x 2 2 2 0}
 
 {comment: Intro}
-| [Dm] | . | [Am] | . | [E] | . | [Am] : |
+| [*50] [*52] [*53] | [Dm] | . | [Am] | . | [E] | . | [Am] : |
 
 {start_of_verse: Couplet 1}
 En esta noche [Am]clara de in[E]quietos lu[Am]ceros

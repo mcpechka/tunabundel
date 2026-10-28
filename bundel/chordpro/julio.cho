@@ -4,8 +4,8 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Intro}
-| [*;;;F↓] | [*E*] | . : |
-| [*;64;50;52] | [C] | [*;;52;50] | [G] | [F] | . | [E] | [E] |
+| [E] | . . . [F] | [E] | . : |
+| . [*64] [*50] [*52] | [C] | . . [*52] [*50] | [G] . [*63] [*62] | [F] | . | [E] [F] | [E] |
 
 {start_of_verse: Couplet 1}
 [E]Julio Romero de Torres
@@ -18,7 +18,7 @@ La guita rra [*52 50]canta [E]dora.
 {end_of_verse}
 
 {comment: Brug}
-| [*Dm*] | . | [*B7*] | . | [*F*] | . | [E] | [E] |
+| [Dm] | . | [B7] | . | [F] | . | [E] [F] | [E] |
 
 {start_of_chorus: Refrein}
 [*60 62 64] Mor[A]ena, la de los rojos cla[E]veles

@@ -4,10 +4,10 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Intro}
-| [*bandurria] | [A] | . | [*;64 62] |
-| [E] | . | . | [*;62 64] |
-| [A] | . | . | [*;64 62] |
-| [E] | . | . | [*;62 64] | [A] | . | [A] |
+| [*bandurria] | [A] | . | . [*64 62] |
+| [E] | . | . | . [*62 64] |
+| [A] | . | . | . [*64 62] |
+| [E] | . | . | . [*62 64] | [A] | . | [A] |
 
 {start_of_verse: Couplet 1}
 Aquí [A]está la [E]tuna que con su ale[A]gría,
@@ -25,9 +25,9 @@ un poco de a[A]mor. [E] [A]
 {end_of_verse}
 
 {comment: Intermezzo}
-| [*bandurria] | [A] | . | [*;64 62] |
-| [E] | . | . | [*;62 64] |
-| [A] | . | . | [*;64 62] |
+| [*bandurria] | [A] | . | . [*64 62] |
+| [E] | . | . | . [*62 64] |
+| [A] | . | . | . [*64 62] |
 | [E] |
 
 {start_of_verse: Solo}

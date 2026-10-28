@@ -5,8 +5,8 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Intro (inval bandurria)}
-| [*40;42;44] | [D7] | [*63;G;62] | [*60;Em;52] | [*40;D;50] |
-| [*42;A7;50] | [*42;A7;50] | [*40;D;50] | [*40;D;50] |
+| [*40] [*42] [*44] | [D7] | [*63] [G] [*62] | [*60] [Em] [*52] | [*40] [D] [*50] |
+| [*42] [A7] [*50] | [*42] [A7] [*50] | [*40] [D] [*50] | [*40] [D] [*50] |
 
 {start_of_verse: Couplet 1}
 Des[D]pierta, dulce amor de mi [A7]vida.
@@ -29,7 +29,7 @@ Te [D]quiero.
 {chorus: Refrein}
 
 {comment: Einde}
-| . | [D] |
+| [*50 40] | [D] |
 
 {start_of_verse: Vertaling (NL)}
 Wordt wakker, zoete lief van mijn leven.
