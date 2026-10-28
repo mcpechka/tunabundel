@@ -9,31 +9,36 @@
 {comment: intro instrumentaal (zoals couplet 1, 2, en 3) (repetir)}
 
 {start_of_verse: couplet 1:}
-Este [*Dm40]parte, e aquele [*F61]parte
-E [*Bb51]todos, [*Gm63]todos se v[*C53]ão,
-Ga[*C753]liza [*A754]ficas sem [*Dm40]homens,
-Que [*Bb51]possam [*Gm63]cortar teu [*A7sus450]pão. [A7]
+Este [Dm][*40]parte, e aquele [F][*61]parte
+E [Bb][*51]todos, [Gm][*63]todos se v[C][*53]ão,
+Ga[C7][*53]liza [A7][*54]ficas sem [Dm][*40]homens,
+Que [Bb][*51]possam [Gm][*63]cortar teu [A7sus4][*50]pão. [A7]
 {end_of_verse}
 
 {start_of_verse: couplet 2:}
-Tens em [*Dm40]troca, órfãos é [*F61]órfas,
-Tens [*Bb51]campos, [*Gm63]de soli[*C53]dão,
-Tens [*C753]mães que [*A754]não têm [*Dm40]filhos,
-Fil[*Bb51]hos que [*Gm63]não têm [*A7sus450]mães. [A7]
+Tens em [Dm][*40]troca, órfãos é [F][*61]órfas,
+Tens [Bb][*51]campos, [Gm][*63]de soli[C][*53]dão,
+Tens [C7][*53]mães que [A7][*54]não têm [Dm][*40]filhos,
+Fil[Bb][*51]hos que [Gm][*63]não têm [A7sus4][*50]mães. [A7]
 {end_of_verse}
 
 {start_of_verse: couplet 3:}
-Cora[*Dm40]çao, que tens e [*F61]sofre,
-Lon[*Bb51]gas, au[*Gm63]sências mort [*C53]ais,
-Vi[*C753]úvas [*A754]de vivos [*Dm40]mortos,
-Que [*Bb51]ninguém [*Gm63]consola[*A7sus450]rá. [A7]
+Cora[Dm][*40]çao, que tens e [F][*61]sofre,
+Lon[Bb][*51]gas, au[Gm][*63]sências mort [C][*53]ais,
+Vi[C7][*53]úvas [A7][*54]de vivos [Dm][*40]mortos,
+Que [Bb][*51]ninguém [Gm][*63]consola[A7sus4][*50]rá. [A7]
 {end_of_verse}
 
 {comment: instrumentaal in Em}
-| [Em60] | [Em60] | [G63] | [G63] |
-| [C53] | [Am50] | [D40] | [D40] |
-| [D740] | [B752] | [Em60] | [Em60] |
-| [C53] | [Am50] | [B752] | [B7] |
+| [Em] [*60] | [Em] [*60] | [G] [*63] | [G] [*63] |
+| [C] [*53] | [Am] [*50] | [D] [*40] | [D] [*40] |
+| [D7] [*40] | [B7] [*52] | [Em] [*60] | [Em] [*60] |
+| [C] [*53] | [Am] [*50] | [B7] [*52] | [B7] |
+
+{comment: versnelling trom, inval gitaren slagje Em}
+
+{comment: instrumentaal in Em snel (zoals voorgaand):}
+{comment: Em G C Am D D7 B7 Em C Am B7 B7↓}
 
 {start_of_verse: Vertaling (NL)}
 Dit deel, en dat deel

@@ -3,7 +3,8 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Intro (2x)}
-| [D] | [D] | [G] | [A] | [A] | [A] | [A] | [D] : | . | [A] | [D] | [A] |
+| [D] | [D] | [G] | [A] | [A] | [A] | [A] | [D] : |
+| . | [A] | [D] | [A] |
 
 {start_of_verse: Couplet 1}
 [D]Cuando ronda la tuna
@@ -35,6 +36,8 @@ Dice que sabes coser
 Dice que sabes bor[D]dar
 {end_of_verse}
 
+{comment: Esta noche no alumbra}
+
 {start_of_verse: Couplet 3}
 Esta noche no alumbra
 La farola del [A7]mar
@@ -46,6 +49,10 @@ Esta noche no alumbra
 La farola del [D]mar
 {end_of_verse}
 
+{comment: Intro}
+
+{comment: Los ojos de la Morena}
+
 {start_of_verse: Couplet 4}
 [D]Tus ojos morena, me encentan a [A7]mí
 Y yo sin tus ojos, no puedo vi[D]vir
@@ -54,6 +61,8 @@ Tus ojos morena, me encantan a [D]mí
 {end_of_verse}
 
 {comment: Intro (repetir)}
+
+{comment: Palmero sube a la palma}
 
 {start_of_verse: Couplet 5}
 Palmero sube a la pa[A7]lma

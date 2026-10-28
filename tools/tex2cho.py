@@ -36,10 +36,22 @@ def text(t):
     t = t.replace("{", "").replace("}", "").replace("~", " ").replace("\\", "")
     return re.sub(r"[ \t]+", " ", t)
 
+DUTCH = {"is": "#", "es": "b", "s": "b"}
+
+def split_tab(raw):
+    """'Dm\\tiny{\\underline{40}}' -> ('Dm', ['40'])"""
+    tabs = re.findall(r"\\underline\{([^{}]*)\}", raw)
+    rest = re.sub(r"(?:\\tiny|\\small|\\footnotesize)?\s*\{?\\underline\{[^{}]*\}\}?", " ", raw)
+    rest = re.sub(r"\\(?:tiny|small|footnotesize)\b", "", rest)
+    return rest.strip(), [re.sub(r"\s+", " ", text(t)).strip() for t in tabs if text(t).strip()]
+
 def chord_name(c):
+    m = re.match(r"^\s*\*?([A-G])(is|es|s)(?![a-z])(.*)$", c)
+    if m and not (m.group(1) in "CDFG" and m.group(2) == "s"):
+        c = m.group(1) + DUTCH[m.group(2)] + m.group(3)
     c = c.replace("$\\sharp$", "#").replace("\\sharp", "#").replace("$\\flat$", "b").replace("\\flat", "b")
     c = c.replace("$\\circ$", "°") if re.match(r"^\s*[A-G][#b]?\$\\circ\$\s*$", c) else c
-    c = re.split(r"\$|;|\s", c.strip())[0].replace("\\", "").strip().lstrip("*")
+    c = re.split(r"\$|;|\s", c.strip())[0].replace("\\", "").strip().strip("*")
     return c if c and CHORD_RE.match(c) else None
 
 def chord_token(body, defines):
@@ -51,6 +63,9 @@ def chord_token(body, defines):
         if len(frets) in (4, 6):
             defines[chord_name(fm.group(1))] = " ".join(frets)
         return ""
+    rest, tabs = split_tab(b)
+    if tabs and chord_name(rest):
+        return "[" + chord_name(rest) + "]" + "".join("[*" + t + "]" for t in tabs)
     c = chord_name(b)
     if c: return "[" + c + "]"
     pm = re.match(r"^\s*([^()]+?)\s*\((.+)\)\s*$", text(b))
@@ -74,6 +89,11 @@ def line_to_cho(line, defines):
 
 def measure_cell(body, rep):
     """One \\measure: beats are separated by ';' (tunaChords.sty), ':' marks repeats."""
+    raw_beats = body.split(";")
+    tabs_per_beat = []
+    for i, rb in enumerate(raw_beats):
+        rest, tabs = split_tab(rb); raw_beats[i] = rest; tabs_per_beat.append(tabs)
+    body = ";".join(raw_beats)
     tb = re.sub(r"\s+", " ", text(body)).strip()
     rs = re_ = False
     if tb == ":":
@@ -83,7 +103,12 @@ def measure_cell(body, rep):
         if tb.endswith(":"): re_, tb = True, tb[:-1].strip()
     if rep.strip() == ":": re_ = True
     items = []
-    for beat in tb.split(";"):
+    for bi, beat in enumerate(tb.split(";")):
+        extra = "".join(" [*" + t + "]" for t in (tabs_per_beat[bi] if bi < len(tabs_per_beat) else []))
+        if extra:
+            bb = beat.replace("↓", "").replace("↑", "").replace("*", "").strip()
+            c = chord_name(bb)
+            items.append(("[" + c + "]" if c else ("[*" + bb + "]" if bb else "")) .strip() + extra if (c or bb) else extra.strip()); continue
         b = beat.replace("↓", "").replace("↑", "").replace("*", "").strip()
         if b in ("", "°", "o", "x"): items.append(None); continue
         c = chord_name(b)
@@ -140,8 +165,14 @@ def convert(raw):
     defines, body = {}, []
     song_part = raw.split("\\end{song}")[0]
     tr = re.search(r"\\begin\{translation\}(.*?)\\end\{translation\}", raw, re.S)
-    rx = re.compile(r"\\begin\{(verse|instrumental|sidenote)\}(?:\{((?:[^{}]|\{[^{}]*\})*)\})?(?:\[(\d+)\])?(.*?)\\end\{\1\}|\\repetition\{((?:[^{}]|\{[^{}]*\})*)\}", re.S)
+    rx = re.compile(r"\\begin\{(verse|instrumental|sidenote)\}(?:\{((?:[^{}]|\{[^{}]*\})*)\})?(?:\[(\d+)\])?(.*?)\\end\{\1\}|\\repetition\{((?:[^{}]|\{[^{}]*\})*)\}|\\textbf\{((?:[^{}]|\{[^{}]*\})*)\}", re.S)
     for b in rx.finditer(song_part):
+        if b.group(6) is not None:
+            for part in re.split(r"\\\\", b.group(6)):
+                note = re.sub(r"\s+", " ", text(part)).strip()
+                if note: body.append("{comment: " + note + "}")
+            body.append("")
+            continue
         if b.group(5) is not None:
             name = text(b.group(5)).strip()
             body.append("{chorus: " + name + "}" if is_chorus(name) else "{comment: " + name + " (repetir)}")
@@ -155,8 +186,8 @@ def convert(raw):
         if kind == "instrumental":
             rows = [measures(r) for r in re.split(r"\\\\|\n", content)]
             rows = [r for r in rows if r]
-            if per_row:
-                flat = [c for r in rows for c in r]; k = int(per_row)
+            flat = [c for r in rows for c in r]; k = int(per_row or 8)
+            if per_row or any(len(r) > 8 for r in rows):
                 rows = [flat[i:i + k] for i in range(0, len(flat), k)]
             if not any("[" in c and "[*" not in c.split("[")[1][:1] for r in rows for c in r) and not any(re.search(r"\[[^*]", c) for r in rows for c in r): continue
             if not rows: continue

@@ -5,7 +5,8 @@
 {meta: source Tunabundel – Tuna Ciudad de Luz}
 
 {comment: Intro}
-| [B7] | . | [Em] | . | [B7] | . | [Em] | [E7] | [Am] | . | [Em] | . | [B7] | . | [Em] | . |
+| [B7] | . | [Em] | . | [B7] | . | [Em] | [E7] |
+| [Am] | . | [Em] | . | [B7] | . | [Em] | . |
 
 {start_of_verse: Couplet 1}
 Luciendo un chambergo el cantor
@@ -41,6 +42,10 @@ Curza la llanura, la gentil figura de la tradi[Em]ción del payador.
 Si alguna lo mira al pasar,
 Otra chica [E7]linda de boquita linda con su cubre[Am]sol, en el mirar,
 {end_of_verse}
+
+{comment: [Brug]}
+
+{comment: [Refrein]}
 
 {start_of_verse: Vertaling (NL)}
 Met een kamergo aan, doorkruist de zangeres de vlakte met de zachte figuur van de traditie, de payador.
